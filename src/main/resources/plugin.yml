@@ -1,0 +1,7 @@
+name: Survival
+version: ${project.version}
+main: de.dinomarlir.survival.Survival
+commands:
+  info:
+  brodcastposition:
+  survival:
