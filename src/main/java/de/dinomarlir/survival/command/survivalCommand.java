@@ -9,8 +9,9 @@ public class survivalCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         //Hier kommt die Nachicht!
-        sender.sendMessage(Survival.Prefix + "Das Menü kommt noch! :=) Sachen die drin sind: (/survival /info /brodcastpositionCommand ChatSystem Join/Quit Nachichten)");
-
+        sender.sendMessage(Survival.Prefix + "Die Commands:");
+        sender.sendMessage(Survival.Prefix + "/info §8● §aZeigt die Infos an.");
+        sender.sendMessage(Survival.Prefix + "/brodcastpositionCommand §8● §asendet deine Position an andere Spieler.");
 
 
         return false;
