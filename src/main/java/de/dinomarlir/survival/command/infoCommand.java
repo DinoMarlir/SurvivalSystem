@@ -13,6 +13,7 @@ public class infoCommand implements CommandExecutor{
         Player player = (Player) sender;
 
 
+        //Hier kommen die Nachichten!
         sender.sendMessage(Survival.Prefix + "Dein Spielername§8:§a " + sender.getName());
         sender.sendMessage(Survival.Prefix + "Deine Koordinaten§8:§a X:" +  ((Player) sender).getLocation().getX() + ", Y:" +  ((Player) sender).getLocation().getY() + ", Z:" +  ((Player) sender).getLocation().getZ());
 

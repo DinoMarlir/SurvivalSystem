@@ -8,7 +8,8 @@ import org.bukkit.command.CommandSender;
 public class survivalCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        sender.sendMessage(Survival.Prefix + "Das Menü kommt noch! :=) Schen die drin sind: (/survival /info /brodcastpositionCommand ChatSystem Join/Quit Nachichten)");
+        //Hier kommt die Nachicht!
+        sender.sendMessage(Survival.Prefix + "Das Menü kommt noch! :=) Sachen die drin sind: (/survival /info /brodcastpositionCommand ChatSystem Join/Quit Nachichten)");
 
 
 

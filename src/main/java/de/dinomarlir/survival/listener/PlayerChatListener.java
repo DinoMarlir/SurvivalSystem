@@ -11,10 +11,13 @@ public class PlayerChatListener implements Listener {
 
 
         if (!event.getPlayer().isOp()) {
+            //Chat wenn der Spieler kein OP hat.
+
 
             event.setFormat("§9" + event.getPlayer().getName() + " §8» §a" + event.getMessage());
 
         }else if (event.getPlayer().isOp()) {
+            //Chat wenn der Spieler OP hat.
 
             event.setFormat("§4" + event.getPlayer().getName() + " §8» §a" + event.getMessage());
 

@@ -18,12 +18,17 @@ public final class Survival extends JavaPlugin {
 
 
 
+
+
+        //Hier werden die Listener registriert!
         PluginManager pluginManager = Bukkit.getPluginManager();
         pluginManager.registerEvents(new PlayerJoinListener(), this);
         pluginManager.registerEvents(new PlayerQuitListener(), this);
         pluginManager.registerEvents(new PlayerChatListener(), this);
 
 
+
+        //Hier werden die Commands registriert!
         getCommand("info").setExecutor(new infoCommand());
         getCommand("brodcastposition").setExecutor(new brodcastpositionCommand());
         getCommand("survival").setExecutor(new survivalCommand());

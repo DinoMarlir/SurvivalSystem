@@ -1,7 +1,6 @@
 name: Survival
 version: ${project.version}
 main: de.dinomarlir.survival.Survival
-api-version: 1.16
 commands:
   info:
   brodcastposition:
