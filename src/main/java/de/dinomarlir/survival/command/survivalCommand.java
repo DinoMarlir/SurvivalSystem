@@ -11,7 +11,7 @@ public class survivalCommand implements CommandExecutor {
         //Hier kommt die Nachicht!
         sender.sendMessage(Survival.Prefix + "Die Commands:");
         sender.sendMessage(Survival.Prefix + "/info §8● §aZeigt die Infos an.");
-        sender.sendMessage(Survival.Prefix + "/brodcastpositionCommand §8● §asendet deine Position an andere Spieler.");
+        sender.sendMessage(Survival.Prefix + "/broadcastposition §8● §asendet deine Position an andere Spieler.");
 
 
         return false;

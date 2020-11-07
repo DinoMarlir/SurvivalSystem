@@ -1,7 +1,12 @@
 name: Survival
-version: ${project.version}
+author: DinoMarlir
+description: Ein kleines Survival Plugin!
+version: 0.1
 main: de.dinomarlir.survival.Survival
 commands:
   info:
-  brodcastposition:
+    description: Zeigt Infos an (Spielername, Koordinaten)
+  broadcastposition:
+    description: Sendet an alle Spieler deine Koordinaten!
   survival:
+    description: Zeigt eine kleine Commandübersicht.

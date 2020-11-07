@@ -1,6 +1,6 @@
 package de.dinomarlir.survival;
 
-import de.dinomarlir.survival.command.brodcastpositionCommand;
+import de.dinomarlir.survival.command.broadcastpositionCommand;
 import de.dinomarlir.survival.command.infoCommand;
 import de.dinomarlir.survival.command.survivalCommand;
 import de.dinomarlir.survival.listener.*;
@@ -30,7 +30,7 @@ public final class Survival extends JavaPlugin {
 
         //Hier werden die Commands registriert!
         getCommand("info").setExecutor(new infoCommand());
-        getCommand("brodcastposition").setExecutor(new brodcastpositionCommand());
+        getCommand("broadcastposition").setExecutor(new broadcastpositionCommand());
         getCommand("survival").setExecutor(new survivalCommand());
 
     }
